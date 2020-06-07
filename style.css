@@ -1,74 +1,92 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+	font-family: cambria;
 }
 
-body{
-    font-family: 'roboto', sans-serif;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('dd.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    /*width: 500px;
-    align-items: center;*/
+a{
+	text-decoration: none;
 }
 
-.container{
-    text-align: center;
-    width: 400px;
-    height: 520px;
-    background: transparent;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px rgba(1,1,1,0.3),
-        inset 3px 3px 10px rgba(0,0,0,0.2);
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(11.jpg);
+	height:  100vh;
+	background-size: cover;
+	background-position: center; 
 }
 
-.container h1{
-    margin-top: 25px;
-    color: rgb(34,34,34);
-    letter-spacing: 1px;
-    font-weight: bold;
+ul{
+	float: right;
+	list-style-type: none;
+	font-size: 20px;
 }
 
-.container i{
-    transform: translateX(35px);
-    color: rgb(59,59,59);
+ul li{
+	display: inline-block;
 }
 
-.container input{
-    outline: none;
-    border-radius: 30px;
-    border: 2px solid red;
-    width: 300px;
-    height: 45px;
-    background: transparent;
-    margin-top: 25px;
-    padding-left: 40px;
-    padding-right: 20px;
-    font-size: 16px;
-    transition: all 0.4s;
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px,10px;
+	border: 1px solid tranparent;
+	transition: 0.6s ease
 }
 
-.container button{
-    cursor: pointer;
-    width: 300px;
-    height: 45px;
-    margin-top: 25px;
-    background: rgb(43,91,224);
-    color: white;
-    font-size: 16px;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+ul li a:hover{
+	background-color:#fff;
+	color: #000;
+}
+ul li.active a{
+	background-color:#fff;
+	color: #000;
+
+}
+.main{
+	max-width: 1200px;
+	margin auto;
+}	
+5
+.title{
+	position: absolute;
+	top: 30%;
+	mix-blend-mode:70;
+	transform: translate(-50%,-40%);
+	color: #fff;
+	font-size: 60px;
 }
 
+.botton{
+	position: absolute;
+	top: 60%;
+	left: 50;
+	transform: translate(-50%,-50%);
+	
+}
+p{
+	text-decoration-color: white;
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+}
 
-.container button:hover{background: rgb(36,79,196);}
-.container input:valid{border: 2px solid green;}
-
+ul .btn{
+	border: 1px solid #fff;
+	/*padding: 10px,30px;*/
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #000000;
+	height: 25px;
+	width: 70px;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: cambria;
+	margin-left: 50px;
+	padding-left: 100px;
+}
