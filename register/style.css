@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('dd.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*width: 500px;
+    align-items: center;*/
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+    height: 520px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(1,1,1,0.3),
+        inset 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.container h1{
+    margin-top: 25px;
+    color: rgb(34,34,34);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.container i{
+    transform: translateX(35px);
+    color: rgb(59,59,59);
+}
+
+.container input{
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid red;
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    margin-top: 25px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+
+.container button{
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    background: rgb(43,91,224);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.btn{
+    background-color: white;
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    background: rgb(43,91,224);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.container button:hover{background: rgb(36,79,196);}
+.container input:valid{border: 2px solid green;}
+
