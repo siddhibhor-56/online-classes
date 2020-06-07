@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli('localhost:3307','root','','forrm');
+$con = new mysqli('github.io','siddhibhor-56','siddhibhor@56','forrm');
 
 $name = $_POST['name'];
 $email = $_POST['email'];
